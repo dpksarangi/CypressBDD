@@ -4,4 +4,3 @@ Feature: Demo feature one
         Then I click on top menu
         When I verify title
         Then Title matches
-
