@@ -1,4 +1,9 @@
-import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
+import {
+  Given,
+  Then,
+  When,
+  And,
+} from "@badeball/cypress-cucumber-preprocessor";
 
 Given("I open the base page", function () {
   cy.visit("https://practice.automationtesting.in/");
